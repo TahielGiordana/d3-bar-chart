@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+  width: 100vw;
+  min-height: 550px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  min-width: 950px;
+  width: 80vw;
+  min-height: 550px;
+  height: 90vh;
+  background-color: bisque;
+  box-shadow: 0px 10px 20px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bar:hover {
+  fill: gold;
+}
